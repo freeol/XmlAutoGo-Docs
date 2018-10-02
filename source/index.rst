@@ -31,6 +31,9 @@ New Features
 6.There are two way to run the XmlAutoGo.
  - Click the XmlAutoGo.exe to use with windows UI.
  - Run the command to run scripts program.
+ 
+`Examples <https://github.com/freeol/XmlAutoGo/tree/master/examples>`_
+#######################################################################
 
 
 
