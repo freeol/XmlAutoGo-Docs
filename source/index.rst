@@ -1,15 +1,4 @@
 XmlAutoGo's Documentation
 =====================================
 
-- 1111
- 
-- 2222
- 
-- 3333
- 
-  - 4444
-    5555
- 
-- 6666
- 
-- 7777
+`SeayXu <https://github.com/SeayXu/>`_
