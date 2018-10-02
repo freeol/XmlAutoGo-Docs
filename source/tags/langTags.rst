@@ -4,36 +4,48 @@ Lang tags
 ◾<ADD/>
 =====================================
 summary
- add item into the end of a list or array variable
+ Add item into the end of a list or array variable.
 eg.
+::
  <add id="t2">"add is ok"</add>
 notes
- id is the variable's name
+ "id" is the variable's name
 
 
 ◾<BREAK/>
 =====================================
 summary
- 
-notes
- 
+ Break the loop.
+eg.
+::
+ <for range="range(1,4)">
+  <if>
+    <when test="{!index}==2">
+      <break/>
+    </when>
+  </if>
+  <d_javascript>console.log('{!index}')</d_javascript>
+ </for>
 notes
  
 
 ◾<CALL/>
 =====================================
 summary
- 
+ Call the method or module's method
+eg.
+::
+ <CALL name="test_func" parameters="{'a':2, 'b':1}"></CALL>
 notes
- 
-notes
- 
+ "name" is the method's name, the method's parameters is a json type.
+ It also can use "modulename.methodname" to call module's method with the "name". 
 
 ◾<CONTINUE/>
 =====================================
 summary
  
-notes
+eg.
+::
  
 notes
  
@@ -42,7 +54,7 @@ notes
 =====================================
 summary
  
-notes
+eg.
  
 notes
  
@@ -51,7 +63,7 @@ notes
 =====================================
 summary
  
-notes
+eg.
  
 notes
  
@@ -60,7 +72,7 @@ notes
 =====================================
 summary
  
-notes
+eg.
  
 notes
  
@@ -69,7 +81,7 @@ notes
 =====================================
 summary
  
-notes
+eg.
  
 notes
  
@@ -78,7 +90,7 @@ notes
 =====================================
 summary
  
-notes
+eg.
  
 notes
  
@@ -87,7 +99,7 @@ notes
 =====================================
 summary
  
-notes
+eg.
  
 notes
  
@@ -96,7 +108,7 @@ notes
 =====================================
 summary
  
-notes
+eg.
  
 notes
  
@@ -114,7 +126,7 @@ notes
 =====================================
 summary
  
-notes
+eg.
  
 notes
  
@@ -132,7 +144,7 @@ notes
 =====================================
 summary
  
-notes
+eg.
  
 notes
  
@@ -141,7 +153,7 @@ notes
 =====================================
 summary
  
-notes
+eg.
  
 notes
  
@@ -150,7 +162,7 @@ notes
 =====================================
 summary
  
-notes
+eg.
  
 notes
  
@@ -159,7 +171,7 @@ notes
 =====================================
 summary
  
-notes
+eg.
  
 notes
  
@@ -168,7 +180,7 @@ notes
 =====================================
 summary
  
-notes
+eg.
  
 notes
  
@@ -177,7 +189,7 @@ notes
 =====================================
 summary
  
-notes
+eg.
  
 notes
  
@@ -186,7 +198,7 @@ notes
 =====================================
 summary
  
-notes
+eg.
  
 notes
  
@@ -195,7 +207,7 @@ notes
 =====================================
 summary
  
-notes
+eg.
  
 notes
  
@@ -204,7 +216,7 @@ notes
 =====================================
 summary
  
-notes
+eg.
  
 notes
  
