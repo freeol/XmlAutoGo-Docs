@@ -3,7 +3,7 @@
 
 Lang tags
 ==========================
-Lang tags is the xml scripts' controler.
+Lang tags is the xml scripts' controller.
 
 <ADD/>
 #######################
