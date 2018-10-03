@@ -1,6 +1,6 @@
 Xml scripts tags
 =====================================
- | Lang tags(no prefix) is the hole scripts controller.
+ | Lang tags(no prefix) is hole of the scripts controller.
  | Webdriver tags("d" prefix) is used to control webdriver browser.
  | Excel tags("xls" prefix) is used to control excel files.
  | Windows OS tags("w" prefix) is used to control OS files or run win32api.

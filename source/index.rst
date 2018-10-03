@@ -6,11 +6,11 @@ XmlAutoGo's Documentation
 
 `Xml scripts tags <./tags/tags.html>`_
 =====================================
- | Lang tags(no prefix) is the hole scripts controller.
- | Webdriver tags("d" prefix) is used to control webdriver browser.
- | Excel tags("xls" prefix) is used to control excel files.
- | Windows OS tags("w" prefix) is used to control OS files or run win32api.
- | UI tags("ui" prefix) is the XmlAutoGo UI controller.
+ | `Lang tags(no prefix) <./tags/langTags.html>`_ is hole of the scripts controller.
+ | `Webdriver tags("d" prefix) <./tags/webdriverTags.html>`_ is used to control webdriver browser.
+ | `Excel tags("xls" prefix) <./tags/excelTags.html>`_ is used to control excel files.
+ | `Windows OS tags("w" prefix) <./tags/windowsOSTags.html>`_ is used to control OS files or run win32api.
+ | `UI tags("ui" prefix) <./tags/uiTags.html>`_ is the XmlAutoGo UI controller.
 
 `Github <https://github.com/freeol/XmlAutoGo>`_
 =====================================
