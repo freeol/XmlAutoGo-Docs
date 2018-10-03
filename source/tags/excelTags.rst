@@ -3,6 +3,7 @@
 
 Excel tags
 ==========================
+Excel tags is the excel file's controller.
 
 <XLS_EXCEL/>
 #######################
