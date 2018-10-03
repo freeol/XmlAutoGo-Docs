@@ -1,8 +1,61 @@
+`Tags <./tags.html>`_
+==========================
+
 Webdriver tags
-=====================================
+========================
 
-◾<D_ADD_COOKIE/>
-=====================================
+<D_ADD_COOKIE/>
+#######################
+summary
+ 
+eg.
+::
+ 
+notes
+ 
+
+<D_CLICKABLE/>
+#######################
+summary
+ 
+eg.
+::
+ 
+notes
+ 
+
+<D_DOWNLOAD/>
+#######################
+summary
+ 
+eg.
+::
+ 
+notes
+ 
+
+<D_INPUT/>
+#######################
+summary
+ 
+eg.
+::
+ 
+notes
+ 
+
+<D_JAVASCRIPT/>
+#######################
+summary
+ 
+eg.
+::
+ 
+notes
+ 
+
+<D_REFRESH/>
+#######################
 summary
  
 notes
@@ -10,119 +63,82 @@ notes
 notes
  
 
-◾<D_CLICKABLE/>
-=====================================
+<D_SCREENSHOT/>
+#######################
 summary
  
-notes
+eg.
+::
  
 notes
  
 
-◾<D_DOWNLOAD/>
-=====================================
+<D_SLEEP/>
+#######################
 summary
  
-notes
+eg.
+::
  
 notes
  
 
-◾<D_INPUT/>
-=====================================
+<D_SWITCH_WIN/>
+#######################
 summary
  
-notes
+eg.
+::
  
 notes
  
 
-◾<D_JAVASCRIPT/>
-=====================================
+<D_TEXT_AS_VAR/>
+#######################
 summary
  
-notes
+eg.
+::
  
 notes
  
 
-◾<D_REFRESH/>
-=====================================
+<D_QUIT/>
+#######################
 summary
  
-notes
+eg.
+::
  
 notes
  
 
-◾<D_SCREENSHOT/>
-=====================================
+<D_UPLOAD/>
+#######################
 summary
  
-notes
+eg.
+::
  
 notes
  
 
-◾<D_SLEEP/>
-=====================================
+<D_URL/>
+#######################
 summary
  
-notes
+eg.
+::
  
 notes
  
 
-◾<D_SWITCH_WIN/>
-=====================================
+<D_WAIT_FOR/>
+#######################
 summary
  
-notes
- 
-notes
- 
-
-◾<D_TEXT_AS_VAR/>
-=====================================
-summary
- 
-notes
- 
-notes
- 
-
-◾<D_QUIT/>
-=====================================
-summary
- 
-notes
- 
-notes
- 
-
-◾<D_UPLOAD/>
-=====================================
-summary
- 
-notes
- 
-notes
- 
-
-◾<D_URL/>
-=====================================
-summary
- 
-notes
- 
-notes
- 
-
-◾<D_WAIT_FOR/>
-=====================================
-summary
- 
-notes
+eg.
+::
  
 notes
  

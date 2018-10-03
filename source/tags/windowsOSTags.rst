@@ -1,92 +1,105 @@
+`Tags <./tags.html>`_
+==========================
+
 Windows OS tags
-=====================================
+==========================
 
-◾<W_CURSOR_CLICK_LEFT/>
-=====================================
+<W_CURSOR_CLICK_LEFT/>
+#######################
 summary
  
-notes
- 
-notes
- 
-
-◾<W_CURSOR_CLICK_RIGHT/>
-=====================================
-summary
- 
-notes
+eg.
+::
  
 notes
  
 
-◾<W_CURSOR_POS/>
-=====================================
+<W_CURSOR_CLICK_RIGHT/>
+#######################
 summary
  
-notes
+eg.
+::
  
 notes
  
 
-◾<W_DIRS_CLEAR/>
-=====================================
+<W_CURSOR_POS/>
+#######################
 summary
  
-notes
+eg.
+::
  
 notes
  
 
-◾<W_DIRS_CLEAR_ALL/>
-=====================================
+<W_DIRS_CLEAR/>
+#######################
 summary
  
-notes
+eg.
+::
  
 notes
  
 
-◾<W_FILE_COPY/>
-=====================================
+<W_DIRS_CLEAR_ALL/>
+#######################
 summary
  
-notes
+eg.
+::
  
 notes
  
 
-◾<W_FILE_DEL/>
-=====================================
+<W_FILE_COPY/>
+#######################
 summary
  
-notes
+eg.
+::
  
 notes
  
 
-◾<W_FILE_MOVE/>
-=====================================
+<W_FILE_DEL/>
+#######################
 summary
  
-notes
+eg.
+::
  
 notes
  
 
-◾<W_FILE_READ/>
-=====================================
+<W_FILE_MOVE/>
+#######################
 summary
  
-notes
+eg.
+::
  
 notes
  
 
-◾<W_FILE_RENAME/>
-=====================================
+<W_FILE_READ/>
+#######################
 summary
  
+eg.
+::
+ 
 notes
+ 
+
+<W_FILE_RENAME/>
+#######################
+summary
+ 
+eg.
+::
  
 notes
  

@@ -11,7 +11,7 @@ XmlAutoGo's Documentation
 =====================================
 
 What is XmlAutoGo?
-######################
+=====================================
 
 XmlAutoGo is a tools that can be used for control webdriver and win32API on windows.
 
@@ -34,7 +34,6 @@ New Features
  
 `Examples <https://github.com/freeol/XmlAutoGo/tree/master/examples>`_
 #######################################################################
-
 
 
 
