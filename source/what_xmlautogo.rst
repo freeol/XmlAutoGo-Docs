@@ -1,6 +1,8 @@
 What is XmlAutoGo?
 =====================================
 
+.. image:: _static/XmlAutoGo.png
+
 XmlAutoGo is a tools that can be used to control webdriver and win32API on windows.
 
 Features
