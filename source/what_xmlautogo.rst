@@ -25,6 +25,10 @@ Features
 Command
 ######################
  $ XmlAutoGo.exe Chrome testScript.xml
+
+Download
+######################
+ `version0.0.0 <https://github.com/freeol/XmlAutoGo/releases/download/v0.0.0/XmlAutoGo_0.0.0.zip>`_
  
 .. toctree::
    :maxdepth: 3
