@@ -1,20 +1,16 @@
-XmlAutoGo's Documentation
-=====================================
-
 Menu
 ===================
 .. toctree::
    :maxdepth: 3
    :glob:
-   
-   home
+
    what_xmlautogo
-   tags/tags
+   tags/index
    examples
+   github
 
    
-`Github <https://github.com/freeol/XmlAutoGo>`_
-=====================================
+
 
 
 
