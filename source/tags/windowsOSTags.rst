@@ -1,5 +1,4 @@
-`Tags <./tags.html>`_
-==========================
+`>>Tags <./tags.html>`_
 
 Windows OS tags
 ==========================

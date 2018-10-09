@@ -1,5 +1,4 @@
-`Tags <./tags.html>`_
-==========================
+`>>Tags <./tags.html>`_
 
 Excel tags
 ==========================
@@ -62,3 +61,5 @@ eg.
 notes
  | "cell" is the position of the sheet.
  | The tag's content is the input text.
+ 
+
