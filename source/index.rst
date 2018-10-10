@@ -8,6 +8,7 @@ Menu
    tags/index
    examples
    github
+   about_us
 
    
 
