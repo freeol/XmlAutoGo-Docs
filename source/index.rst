@@ -9,6 +9,7 @@ Menu
    examples
    github
    about_us
+   updates
 
    
 
