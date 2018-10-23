@@ -28,6 +28,9 @@ Command
 
 Download
 ######################
- `version0.0.0 <https://github.com/freeol/XmlAutoGo/releases/download/v0.0.0/XmlAutoGo_0.0.0.zip>`_
+
+ | `version0.0-beta.11 <https://github.com/freeol/XmlAutoGo/releases/download/0.0-beta.11/XmlAutoGo.0.0.11.zip>`_
+
+ | `version0.0.0 <https://github.com/freeol/XmlAutoGo/releases/download/v0.0.0/XmlAutoGo_0.0.0.zip>`_
  
 
