@@ -1,7 +1,7 @@
 Updates
 =====================================
 
-version.0.0.8(Beta)
+version.0.0.11(Beta)
 #########################
  | 1|BUG|Don't show the command window when call the webdriver.(By `Freeol <https://github.com/freeol>`_)
  | 2|BUG|Fixed the XmlAutoGo project from Addjs.(By `Freeol <https://github.com/freeol>`_)
@@ -10,7 +10,9 @@ version.0.0.8(Beta)
  | 5|ADD|Use win32Api to control excel.(By `CQ.Jin <https://github.com/018163>`_)
  | 6|MOD|Use win32Api to control excel.(By `CQ.Jin <https://github.com/018163>`_)
  | 7|ADD|Add a thead to listen the excel's macro.(By `CQ.Jin <https://github.com/018163>`_)
- | 8|ADD|Add a windows's control script by Autoit3.(By `CQ.Jin <https://github.com/018163>`_)
+ | 8,9|ADD|Add a windows's control script by Autoit3.(By `CQ.Jin <https://github.com/018163>`_)
+ | 10|ADD|Support coroutines.(By `Freeol <https://github.com/freeol>`_)
+ | 11|ADD|Support compress files with zip.(By `Freeol <https://github.com/freeol>`_)
  
 version.0.0.0(Release)
 #########################
