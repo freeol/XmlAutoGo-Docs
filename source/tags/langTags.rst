@@ -44,6 +44,18 @@ notes
  | "name" is the method's name, the method's parameters is a json type.
  | It also can use "modulename.methodname" to call module's method with the "name". 
 
+<CALL_EXEC/>
+#######################
+summary
+ Call the (*.exe) file to execute
+eg.
+::
+ <call name="kill_by_port" cmd="8888"/>
+ <call name="C:/test.exe" cmd="a b c"/>
+notes
+ | "name" is the (*.exe) file's name, if there is no '.exe' in the name, the script will call the (*.exe) file in the AutoXmlGo's folder("/bin" ).
+ | "cmd" is the file's arguments.
+
 <CONTINUE/>
 #######################
 summary
@@ -56,7 +68,45 @@ eg.
   </if>
   <d_javascript>console.log('{!index}')</d_javascript>
  </for>
+notes
+ none
+ 
+<COROUTINES/>
+#######################
+summary
+ Support concurrent execution by coroutines.
+eg.
+::
+<coroutines>
+	<coroutine_func name="test1" parameters="{'msg':'1'}"/>
+	<coroutine_func name="test2" parameters="{'msg':'2'}"/>
+	<coroutine_func name="test3" parameters="{'msg':'3'}"/>
+	<coroutine_func name="tM.test4" parameters="{'msg':'4'}"/>
+	<coroutine_func name="test1" parameters="{'msg':'5'}"/>
+	<coroutine_func name="test2" parameters="{'msg':'6'}"/>
+	<coroutine_func name="test3" parameters="{'msg':'7'}"/>
+	<coroutine_func name="tM.test5" parameters="{'msg':'8'}"/>
+</coroutines>
+notes
+ none
 
+<COROUTINE_FUNC/>
+#######################
+summary
+ Call the function in coroutines.
+eg.
+::
+ <coroutine_func name="test1" parameters="{'msg':'1'}"/>
+notes
+ none
+
+<COROUTINE_EXEC/>
+#######################
+summary
+ Call the (*.exe) file to execute in coroutines.
+eg.
+::
+ <call name="kill_by_port" cmd="8888"/>
 notes
  none
 
@@ -328,5 +378,27 @@ summary
 eg.
  Reference if_tag_
 notes
+
+<ZIP/>
+#######################
+summary
+ Compress files into a zip files.
+eg.
+::
+<variable>
+	testdir='D:/workspace/XmlAutoGo/examples/test';
+</variable>
+<zip path="{!testdir}" filename="test1" compress_path="{!testdir}"/>
+<zip path="{!testdir}" filename="test2">
+[('{!testdir}', 'f1', 'nf1'), ('{!testdir}', 'f2', 'nf2'), ('{!testdir}', 'f3', 'nf3')]
+</zip>
+ 
+notes
+ | "path" is the created file(*.zip)'s directory.
+ | "filename" is the created file(*.zip)'s name.
+ | There are two way to compress files like ↑example.
+ |   1.If the "compress_path" is setted, the path's folder will be compressed.
+ |   2.The tag's content to point what the files will be compressed.
+ 
  
 
