@@ -50,10 +50,10 @@ summary
  Call the (*.exe) file to execute
 eg.
 ::
- <call name="kill_by_port" cmd="8888"/>
- <call name="C:/test.exe" cmd="a b c"/>
+ <call exec_path="kill_by_port" cmd="8888"/>
+ <call exec_path="C:/test.exe" cmd="a b c"/>
 notes
- | "name" is the (*.exe) file's name, if there is no '.exe' in the name, the script will call the (*.exe) file in the AutoXmlGo's folder("/bin" ).
+ | "exec_path" is the (*.exe) file's name, if there is no '.exe' in the name, the script will call the (*.exe) file in the AutoXmlGo's folder("/bin" ).
  | "cmd" is the file's arguments.
 
 <CONTINUE/>
