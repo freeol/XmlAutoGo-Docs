@@ -3,7 +3,7 @@ What is XmlAutoGo?
 
 .. image:: _static/XmlAutoGo.png
 
-XmlAutoGo is a tools that can be used to control webdriver and win32API on windows.
+XmlAutoGo is a tools that can be used to control browser(based on `Selenium 3.14.0 <https://github.com/SeleniumHQ/selenium/releases/tag/selenium-3.14.0>`_) and win32API on windows.
 
 Features
 ######################
