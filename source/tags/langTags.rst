@@ -77,16 +77,16 @@ summary
  Support concurrent execution by coroutines.
 eg.
 ::
-<coroutines>
- <coroutine_func name="test1" parameters="{'msg':'1'}"/>
- <coroutine_func name="test2" parameters="{'msg':'2'}"/>
- <coroutine_func name="test3" parameters="{'msg':'3'}"/>
- <coroutine_func name="tM.test4" parameters="{'msg':'4'}"/>
- <coroutine_func name="test1" parameters="{'msg':'5'}"/>
- <coroutine_func name="test2" parameters="{'msg':'6'}"/>
- <coroutine_func name="test3" parameters="{'msg':'7'}"/>
- <coroutine_func name="tM.test5" parameters="{'msg':'8'}"/>
-</coroutines>
+ <coroutines>
+  <coroutine_func name="test1" parameters="{'msg':'1'}"/>
+  <coroutine_func name="test2" parameters="{'msg':'2'}"/>
+  <coroutine_func name="test3" parameters="{'msg':'3'}"/>
+  <coroutine_func name="tM.test4" parameters="{'msg':'4'}"/>
+  <coroutine_func name="test1" parameters="{'msg':'5'}"/>
+  <coroutine_func name="test2" parameters="{'msg':'6'}"/>
+  <coroutine_func name="test3" parameters="{'msg':'7'}"/>
+  <coroutine_func name="tM.test5" parameters="{'msg':'8'}"/>
+ </coroutines>
 
 notes
  none
