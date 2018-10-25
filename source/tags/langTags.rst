@@ -386,13 +386,13 @@ summary
  Compress files into a zip files.
 eg.
 ::
-<variable>
-	testdir='D:/workspace/XmlAutoGo/examples/test';
-</variable>
-<zip path="{!testdir}" filename="test1" compress_path="{!testdir}"/>
-<zip path="{!testdir}" filename="test2">
-[('{!testdir}', 'f1', 'nf1'), ('{!testdir}', 'f2', 'nf2'), ('{!testdir}', 'f3', 'nf3')]
-</zip>
+ <variable>
+  testdir='D:/workspace/XmlAutoGo/examples/test';
+ </variable>
+ <zip path="{!testdir}" filename="test1" compress_path="{!testdir}"/>
+ <zip path="{!testdir}" filename="test2">
+  [('{!testdir}', 'f1', 'nf1'), ('{!testdir}', 'f2', 'nf2'), ('{!testdir}', 'f3', 'nf3')]
+ </zip>
  
 notes
  | "path" is the created file(*.zip)'s directory.
